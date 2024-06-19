@@ -1,580 +1,63 @@
-<!doctype html>
-<html lang="en">
-    
-
+<!DOCTYPE html>
+<html lang="en" >
 <head>
-    <title>Proxlight Designer</title>
+  <meta charset="UTF-8">
+  <title>Prxlight Designer 3</title>
+  <link rel="stylesheet" href="./style.css">
 
-    <meta charset="utf-8">
-    <meta name="keywords" content="Proxlight Designer, Figma, Drag & Drop">
-    <meta name="description" content="Automate GUI creation.">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="Proxligtht">
-    
-    <link rel="icon" type="image/png" href="favicon/smooth-favicon-16x16.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="favicon/smooth-favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="favicon/smooth-favicon-144x144.png" sizes="144x144">
-    <link rel="icon" type="image/png" href="favicon/smooth-favicon-196x196.png" sizes="196x196">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav>
+  <p class="sitename">Proxlight</p>
+  <p class="menu">Services</p>
+  <p class="menu">Pricing</p>
+  <p class="menu">Features</p>
+  <p class="menu">About us</p>
+  <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 9H5c-.55 0-1 .45-1 1s.45 1 1 1h14c.55 0 1-.45 1-1s-.45-1-1-1zM5 15h14c.55 0 1-.45 1-1s-.45-1-1-1H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
+</nav>
 
-    <link rel="apple-touch-icon" href="favicon/smooth-favicon-196x196.png">
+<div class="grid">
+  <svg class="grid-svg" xmlns="http://www.w3.org/2000/svg" width="982" height="786" viewBox="0 0 982 786" fill="none">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M490 401V537H348.5V401H490ZM490 785.5V676H348.5V785.5H347.5V676H206V785.5H205V676H63.5V785.5H62.5V676H0V675H62.5V538H0V537H62.5V401H0V400H62.5V258H0V257H62.5V116H0V115H62.5V0H63.5V115L205 115V0H206V115L347.5 115V0H348.5V115H490V0H491V115L627.5 115V0H628.5V115H765V0H766V115L902.5 115V0H903.5V115H982V116H903.5V257H982V258H903.5V400H982V401H903.5V537H982V538H903.5V675H982V676H903.5V785.5H902.5V676H766V785.5H765V676H628.5V785.5H627.5V676H491V785.5H490ZM902.5 675V538H766V675H902.5ZM902.5 537V401H766V537H902.5ZM902.5 400V258H766V400H902.5ZM902.5 257V116L766 116V257H902.5ZM627.5 675H491V538H627.5V675ZM765 675H628.5V538H765V675ZM348.5 675H490V538H348.5V675ZM347.5 538V675H206V538H347.5ZM205 538V675H63.5V538H205ZM765 537V401H628.5V537H765ZM765 400V258H628.5V400H765ZM765 257V116H628.5V257H765ZM347.5 401V537H206V401H347.5ZM205 401V537H63.5V401H205ZM627.5 401V537H491V401H627.5ZM627.5 116L491 116V257H627.5V116ZM627.5 258H491V400H627.5V258ZM63.5 257V116L205 116V257H63.5ZM63.5 400V258H205V400H63.5ZM206 116V257H347.5V116L206 116ZM348.5 116V257H490V116H348.5ZM206 400V258H347.5V400H206ZM348.5 258V400H490V258H348.5Z" fill="url(#paint0_radial_1_8)" />
+    <defs>
+      <radialGradient id="paint0_radial_1_8" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(491 392.75) rotate(90) scale(513.25 679.989)">
+        <stop stop-color="white" stop-opacity="0.2" />
+        <stop offset="1" stop-color="#000" stop-opacity="0" />
+      </radialGradient>
+    </defs>
+  </svg>
+  <div class="blur"></div>
+</div>
 
-    <!-- Template stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.min.css">
-    </head>
-    <body>
+<div class="title">
+  <p>Proxlight</p>
+  <p>Designer</p>
+  <p>v3.0</p>
+</div>
 
-    <!-- Start Header -->
-    <header class="header js-header-scroll">
-        <nav hidden>
-            <div class="nav-header">
-                <a href="#" class="brand">
-                    <img src="assets/brand/logo.png" class="logo" alt="Smooth" />
-                </a>
-                <button class="toggle-bar">
-                    <span class="fa fa-bars"></span>
-                </button>
-            </div>		
-            <!-- Start Header menu for mobile -->
-            <div class="header__mobile js-header-menu">
-                <a href="#" class="header__mobile-brand">Menu</a>
-                <button class="toggle-bar header__mobile-toggle">
-                    <span class="fa fa-remove"></span>
-                </button>
-            </div>
-            <!-- End Header menu for mobile -->	
-            <ul class="menu">
-                <li class="active"><a href="index.html">Proxlight Designer</a></li>
-                <li><a href="https://proxlight.github.io/">Home</a></li>
-                <li><a href="https://proxlightapps.gumroad.com">Proxlight Apps</a></li>
+<a href="https://dribbble.com/shots/23181733-Blurry-Glassmorphic-Modern-Landing-page" target="_blank" class="button first"><button>View Source</button><span></span></a>
 
-                <li><a href="https://www.youtube.com/channel/UCZY5SODGdRzOeD_lHCzPdKg">Tutorials</a>  </li>
-                   
-              
-                <li><a href="https://github.com/Proxlight/Proxlight-Designer-v2.git">Github</a></li>
-            </ul>
-            <ul class="attributes">
-                <li class="header__button"><a href="https://proxlightapps.gumroad.com/l/Proxlight-Designer" class="btn btn-primary btn-rounded btn-xs btn-header">Download Now</a></li>
-                <li class="header__download-icon"><a href="https://themeforest.net/user/99webpage/portfolio"><i class="fa fa-download"></i></a></li>
-            </ul>
-        </nav>
-    </header>
-    <!-- End Header -->
+<a href="https://youtu.be/1pW_sk-2y40" target="_blank" class="button sec"><button>Watch Video</button><span></span></a>
 
-    <!-- Start Masthead -->
-    <section class="masthead js-masthead-height pb-0">
-        <div class="masthead__style-overlay"></div>
-        <div class="masthead__style-watter">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 offset-lg-2 text-center">
-                        <div class="masthead__content">
-                            <h1 class="masthead__content-title">Proxlight Designer</h1>
-                            <p class="masthead__content-subtitle">Create Something Beautiful!</p>
-                        </div>
-                        <div class="masthead__content">
-                            <a href="https://github.com/Proxlight/Proxlight-Designer-v2" class="btn btn-orange btn-rounded btn-icon-left btn-lg mb-2"><i class="fa fa-external-link"></i> View Source Code</a>
-                            <a href="https://proxlightapps.gumroad.com/l/Proxlight-Designer" class="btn btn-primary btn-rounded btn-icon-left btn-lg mb-2"><i class="fa fa-download"></i> Download</a>
-                        </div>
-                    </div> 
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <div class="video__background">
-                            <div class="video__background-wrapper js-video-background-wrapper">
-                                <div id="player" poster="assets/images/video-cover%402x.png" data-plyr-provider="youtube" data-plyr-embed-id="RDej0Etwb8k"></div>
-                            </div>
-                        
-                            <img src="assets/images/mackbook-bg%402x.png" class="video__background-image js-video-background-image" alt="" />
-                        </div>
-                    </div> 
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Masthead -->
+<a href="https://x.com/juxtopposed" target="_blank" class="button third"><button>Connect</button><span></span></a>
 
-    <!-- Start Section -->
-    <section class="section pb-0 offset-top-160">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="tabs">
-                        <ul class="nav tabs__navigation js-tab-carousel js-tabs-navigation" id="myTab" role="tablist">
-                            <li class="tabs__navigation-item js-nav-item">
-                                <a class="nav-link tabs__navigation-item--link active" id="getstarted-tab" data-toggle="tab" href="#getstarted" role="tab" aria-controls="getstarted" aria-selected="true">
-                                    <span class="fa fa-file-text-o tabs__navigation-item--icon"></span>
-                                    Tutorials
-                                </a>
-                            </li>
-                            <li class="tabs__navigation-item js-nav-item">
-                                <a class="nav-link tabs__navigation-item--link" id="feature-tab" data-toggle="tab" href="#feature" role="tab" aria-controls="feature" aria-selected="false">
-                                    <span class="fa fa-clock-o tabs__navigation-item--icon"></span>
-                                    Fast & Easy
-                                </a>
-                            </li>
-                            <li class="tabs__navigation-item js-nav-item">
-                                <a class="nav-link tabs__navigation-item--link" id="scheduling-tab" data-toggle="tab" href="#scheduling" role="tab" aria-controls="scheduling" aria-selected="false">
-                                    <span class="fa fa-calendar tabs__navigation-item--icon"></span>
-                                    Designs Scheduling
-                                </a>
-                            </li>
-                            <li class="tabs__navigation-item js-nav-item">
-                                <a class="nav-link tabs__navigation-item--link" id="location-tab" data-toggle="tab" href="#location" role="tab" aria-controls="location" aria-selected="false">
-                                    <span class="fa fa-map-o tabs__navigation-item--icon"></span>
-                                    Design Anywhere
-                                </a>
-                            </li>
-                        </ul>
-                        <div class="tab-content tabs__content" id="myTabContent">
-                            <!-- Start tab pane 01 -->
-                            <div class="tab-pane fade show active" id="getstarted" role="tabpanel" aria-labelledby="getstarted-tab">
-                                <div class="row">
-                                    <div class="col-lg-8 order-lg-4 mb-40">
-                                        <img src="assets/images/screen-app-01.png" class="img-fluid" alt="App screen" />
-                                    </div>
-                                    <div class="col-lg-4 align-self-center mb-40">
-                                        <h2>Watch our Youtube Tutorials</h2>
-                                        <p>
-                                        Our tutorial covers all core concepts of Proxlight Designer and let's you crate beautiful UI's & UX for your recent projects.
-                                        </p>
-                                        <a href="https://www.youtube.com/channel/UCZY5SODGdRzOeD_lHCzPdKg" class="btn btn-primary btn-rounded btn-stroke">Watch Tutorials </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End tab pane 01 -->
+<svg class="top-right" width="219" height="147" viewBox="0 0 219 147" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect opacity="0.18" x="10.4252" y="75.8326" width="7.50168" height="7.50168" transform="rotate(110.283 10.4252 75.8326)" fill="#686868" stroke="white" stroke-width="1.22683" />
+  <rect opacity="0.18" x="180.869" y="138.825" width="7.50168" height="7.50168" transform="rotate(110.283 180.869 138.825)" fill="#686868" stroke="white" stroke-width="1.22683" />
+  <rect x="69.4713" y="-91.84" width="180.485" height="180.485" transform="rotate(20.2832 69.4713 -91.84)" stroke="white" stroke-opacity="0.1" stroke-width="1.22683" />
+</svg>
 
-                            <!-- Start tab pane 02 -->
-                            <div class="tab-pane fade" id="feature" role="tabpanel" aria-labelledby="feature-tab">
-                                <div class="row">
-                                    <div class="col-lg-8 order-lg-4 mb-40">
-                                        <img src="assets/images/screen-app-02.png" class="img-fluid" alt="App screen" />
-                                    </div>
-                                    <div class="col-lg-4 align-self-center mb-40">
-                                        <h2>Faster Then You Think</h2>
-                                        <p>
-                                        Speed up your GUI creation by using Figma as a drag & drop tool for creating eye's popping designs.
-                                        </p>
-                                        <a href="https://www.figma.com" class="btn btn-primary btn-rounded btn-stroke">Start Designing in Figma </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End tab pane 02 -->
-
-                            <!-- Start tab pane 03 -->
-                            <div class="tab-pane fade" id="scheduling" role="tabpanel" aria-labelledby="scheduling-tab">
-                                <div class="row">
-                                    <div class="col-lg-8 order-lg-4 mb-40">
-                                        <img src="assets/images/screen-app-03.png" class="img-fluid" alt="App screen" />
-                                    </div>
-                                    <div class="col-lg-4 align-self-center mb-40">
-                                        <h2>Easily Schedule your Designs with Proxlight Designer Pro</h2>
-                                        <p>
-                                        Schedule your designs so that you can process them any time.
-                                        </p>
-                                        <a href="#" class="btn btn-primary btn-rounded btn-stroke">Learn more</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End tab pane 03 -->
-
-                            <!-- Start tab pane 04 -->
-                            <div class="tab-pane fade" id="location" role="tabpanel" aria-labelledby="location-tab">
-                                <div class="row">
-                                    <div class="col-lg-8 order-lg-4 mb-40">
-                                        <img src="assets/images/screen-app-04.png" class="img-fluid" alt="App screen" />
-                                    </div>
-                                    <div class="col-lg-4 align-self-center mb-40">
-                                        <h2>Design From Anywhere</h2>
-                                        <p>
-                                        Work with your team to create a UI from anywhere explore this Figma feature.
-                                        </p>
-                                        <a href="#" class="btn btn-primary btn-rounded btn-stroke">Learn more </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End tab pane 04 -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Section -->
-
-
-
-    <!-- Start Section -->
-    <section class="section pb-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3">
-                    <h2 class="section__heading section__heading-center">Getting Started With Proxlight Designer</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3 text-center">
-                    <p>
-                    Proxlight Designer is very easy to use. We have created a simple tutorial which will clearly show you how to use Proxlight Designer. The most important part of Proxlight Designer is the naming part which you can also learn from our github page.
-                    </p>
-                    <a href="https://github.com/Proxlight/Proxlight-Designer-v2" class="btn btn-primary btn-rounded">Find out more</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Section -->
-
-    <!-- Start Section -->
-    <section class="section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="section__column section__column-left">
-                        <span class="icon icon-gift column-icon"></span>
-                        <h4>All in one package</h4>
-                        <p>
-                            Simple and fast installer.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="section__column section__column-left">
-                        <span class="icon icon-paper-plane column-icon"></span>
-                        <h4>Quick Start</h4>
-                        <p>
-                            Run the application with no time.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="section__column section__column-left">
-                        <span class="icon icon-cogs column-icon"></span>
-                        <h4>Easy to use</h4>
-                        <p>
-                            With our complete tutorial you can use Proxlight Designer for creating any UI.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="section__column section__column-left">
-                        <span class="icon icon-flask column-icon"></span>
-                        <h4>New Technology</h4>
-                        <p>
-                            Coded using python by Pratyush Mishra along with other Proxlight community.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="section__column section__column-left">
-                        <span class="icon icon-tree column-icon"></span>
-                        <h4>Branch system</h4>
-                        <p>
-                            Convert any Figna design into code.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="section__column section__column-left">
-                        <span class="icon icon-hard-disk column-icon"></span>
-                        <h4>Large Storage</h4>
-                        <p>
-                            Use for creating unlimited projects with Figma's large storage.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="section__column section__column-left">
-                        <span class="icon icon-book column-icon"></span>
-                        <h4>Manual Guide</h4>
-                        <p>
-                            Read complete guide for using Proxlight Designer at our Github page
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="section__column section__column-left">
-                        <span class="icon icon-chart column-icon"></span>
-                        <h4>Actual Designs</h4>
-                        <p>
-                            Clone any design you like.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="section__column section__column-left">
-                        <span class="icon icon-device column-icon"></span>
-                        <h4>Fully responsive</h4>
-                        <p>
-                            Build fully responsive application with Proxlight Designer.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Section -->
-
-    <!-- Start Section -->
-    <section class="section section__cta pb-80">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-sm-4">
-                    <div class="column__boxed">
-                        <span class="icon icon-help column__boxed-icon"></span>
-                        <h5 class="column__boxed-title">Support us</h5>
-                        <p>
-                        You can support us for keeping this tool open-source
-                        </p>
-                        <a href="https://proxlightapps.gumroad.com/" class="btn-link">Donate Here</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-4">
-                    <div class="column__boxed">
-                        <span class="icon icon-users column__boxed-icon"></span>
-                        <h5 class="column__boxed-title">Our comumnity</h5>
-                        <p>
-                        Explore more application.
-                        </p>
-                        <a href="https://proxlightapps.gumroad.com/" class="btn-link">Go to Proxlight Apps</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-4">
-                    <div class="column__boxed">
-                        <span class="icon icon-question column__boxed-icon"></span>
-                        <h5 class="column__boxed-title">F.A.Q</h5>
-                        <p>
-                        Join our Discord for exclusive updates and FAQ's
-                        </p>
-                        <a href="https://discord.gg/g7Z5FHmDvj" class="btn-link">Join Discord</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Section -->
-
-   
-
-    <!-- Start Section -->
-    <section class="section pb-40">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3">
-                    <h2 class="section__heading section__heading-center">How it works</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3 text-center mb-40">
-                    <p>
-                     Proxlight Designer uses Figma's API for creating GUI.
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="section__column text-center">
-                        <span class="icon icon-download icon-lg"></span>
-                        <h3>Download free</h3>
-                        <p>
-                            Download Proxlight Designer for free!
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="section__column text-center">
-                        <span class="icon icon-cogs icon-lg"></span>
-                        <h3>Install software</h3>
-                        <p>
-                            Advance Setup tool for quick installation
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="section__column text-center">
-                        <span class="icon icon-wallet icon-lg"></span>
-                        <h3>Support</h3>
-                        <p>
-                            Get complete support from Proxlight Community
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Section -->
-
-    <!-- Start Section -->
-    <section class="section p0">
-        <div class="container">
-            <div class="section__cta section__cta-column section__cta-offset">
-                <div calss="row">
-                    <div class="col-md-12">
-                        <h2>Subscribe new Proxlight Designer Tutorials</h2>
-                    </div>
-                </div>
-                <div calss="row">
-                    <div class="col-md-8 offset-lg-2">
-                        <fieldset class="section__cta-subscribe">
-                            <form name="ctaSubscribe" action="#">
-                                <input type="text" class="section__cta-subscribe-input" placeholder="Enter your email address" />
-                                <button type="button" class="btn btn-rounded btn-white section__cta-subscribe-button btn-icon-right">Subscribe <i class="fa fa-long-arrow-right"></i></button>
-                            </form>
-                        </fieldset>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Section -->
-
-    <!-- Start Section -->
-    <section class="section section__gray-watter--bottom">
-        <div class="container">
-            <div class="row mt-100">
-                <div class="col-lg-6 offset-lg-3">
-                    <h2 class="section__heading section__heading-center">User Reviews</h2>
-                </div>
-            </div> 
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3 text-center">
-                    <div class="owl-carousel js-owl-testimoni">
-                        <!-- Start testimoni 01 -->
-                        <div class="item">
-                            <div class="testimoni">
-                                <blockquote>Nice Software and a great <strong>Tool </strong>for drag and drop GUI creation.</blockquote>
-                                <p class="testimoni__author"><a href="#">Alexandro Oddol</a></p>
-                                <a href="#" class="testimoni__avatar"><img src="assets/images/testimoni-avatar01.png" class="testimoni__avatar-image" alt="Alexandro Oddol" /></a>
-                            </div>
-                        </div>
-                        <!-- End testimoni 01 -->
-
-                        <!-- Start testimoni 02 -->
-                        <div class="item">
-                            <div class="testimoni">
-                                <blockquote>Really Easy to use. <strong>Super Fast </strong>Thank you Team Proxlight</blockquote>
-                                <p class="testimoni__author"><a href="#">Maria Dextio</a></p>
-                                <a href="#" class="testimoni__avatar"><img src="assets/images/testimoni-avatar02.png" class="testimoni__avatar-image" alt="Alexandro Oddol" /></a>
-                            </div>
-                        </div>
-                        <!-- End testimoni 02 -->
-
-                        <!-- Start testimoni 03 -->
-                        <div class="item">
-                            <div class="testimoni">
-                                <blockquote>I am using this tool from like last <strong>10 Months</strong> and I have not found any problem.</blockquote>
-                                <p class="testimoni__author"><a href="#">Tim cap</a></p>
-                                <a href="#" class="testimoni__avatar"><img src="assets/images/testimoni-avatar03.png" class="testimoni__avatar-image" alt="Alexandro Oddol" /></a>
-                            </div>
-                        </div>
-                        <!-- End testimoni 03 -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-     <!-- End Section -->
-
-    <!-- Start Back to top -->
-    <div class="back-to-top js-back-to-top">
-        <span class="fa fa-angle-double-up back-to-top__icon"></span>
-        <span class="back-to-top__text">TOP</span>
-    </div>
-    <!-- End Back to top -->
-
-    <!-- Start Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="footer__widget">
-                        <img src="assets/brand/logo.png" class="footer__widget-logo" alt="Smooth" />
-                        <p>Bikash Nagar, Nuapada, Odisha - India</p>
-                        <div class="footer__widget-contact">
-                            <i class="fa fa-phone"></i>
-                            <p>(021) 916-185-987-34</p>
-                        </div>
-                        <div class="footer__widget-contact">
-                            <i class="fa fa-envelope"></i>
-                            <p>proxlight02@gmail.com</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-lg-2 col-sm-3">
-                    <div class="footer__widget">
-                        <h4 class="footer__widget-title">Products</h4>
-                        <ul class="footer__widget-linklist">
-                            <li><a href="#">Create</a></li>
-                            <li><a href="#">Eel Creator</a></li>
-                            <li><a href="#">Proxcode</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-6 col-lg-2 col-sm-3">
-                    <div class="footer__widget">
-                        <h4 class="footer__widget-title">Company</h4>
-                        <ul class="footer__widget-linklist">
-                            <li><a href="https://proxlight.github.io/">About us</a></li>
-                            <li><a href="https://proxlight.github.io/">Services</a></li>
-                            <li><a href="https://proxlight.github.io/">Hire us</a></li>
-                            <li><a href="https://proxlight02@gmail.com">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-6 col-lg-2 col-sm-3">
-                    <div class="footer__widget">
-                        <h4 class="footer__widget-title">Resources</h4>
-                        <ul class="footer__widget-linklist">
-                            <li><a href="https://www.youtube.com/channel/UCZY5SODGdRzOeD_lHCzPdKg">Tutorials</a></li>
-                            <li><a href="https://discord.gg/g7Z5FHmDvj">F.A.Q</a></li>
-                            <li><a href="https://proxlightapps.gumroad.com/l/ORUzO">Template UI</a></li>
-                            <li><a href="https://github.com/Proxlight/Proxlight-Designer-v2">Source code</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-6 col-lg-3 col-sm-3">
-                    <div class="footer__widget">
-                        <h4 class="footer__widget-title">Follow us</h4>
-                        <ul class="footer__widget-network">
-                            <li><a href="https://www.youtube.com/channel/UCZY5SODGdRzOeD_lHCzPdKg" class="footer__widget-network-link"><i class="fa fa-youtube-play"></i></a></li>
-                            <li><a href="https://twitter.com/Proxlight1" class="footer__widget-network-link"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="https://dribbble.com/Proxlight" class="footer__widget-network-link"><i class="fa fa-dribbble"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="footer__subfooter">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <p>© <a href="https://proxlight.github.io/">Proxlight</a> 2021. All Rights Reserved.</p>
-                            </div>
-                            <div class="col-md-6 text-right">
-                                <ul class="footer__subfooter-liststyle">
-                                    <li><a href="https://proxlight.github.io/">Terms Of Service</a></li>
-                                    <li><a href="https://proxlight.github.io/">Privacy Policy</a></li>
-                                    <li><a href="https://proxlight.github.io/">Help</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End Footer -->
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="assets/js/jquery.min.js"></script>
-
-	<!-- Template main JavaScript -->
-    <script src="assets/js/main.min.js"></script>
-    
-    <script>const player = new Plyr('#player');</script>
-
-	<!-- Template custome JavaScript -->
-	<script src="assets/js/scripts.min.js"></script>
-    </body>
-
-<!-- Mirrored from 99webpage.com/theme-review/landingpage/smooth/home-alt5.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 10 Aug 2021 08:53:14 GMT -->
+<svg class="bottom-left" width="232" height="191" viewBox="0 0 232 191" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50.5685" cy="172.432" r="112.068" stroke="white" stroke-opacity="0.09" />
+  <g opacity="0.1">
+    <path d="M26.4932 5.20547L228.856 172.432" stroke="#D9D9D9" />
+    <rect x="22.4384" y="0.5" width="6.15753" height="6.15753" fill="#686868" stroke="white" />
+    <rect x="224.801" y="169.027" width="6.15753" height="6.15753" fill="#686868" stroke="white" />
+    <circle cx="121.819" cy="83.613" r="1.7774" fill="#323232" stroke="white" />
+  </g>
+</svg>
+<!-- partial -->
+  
+</body>
 </html>
